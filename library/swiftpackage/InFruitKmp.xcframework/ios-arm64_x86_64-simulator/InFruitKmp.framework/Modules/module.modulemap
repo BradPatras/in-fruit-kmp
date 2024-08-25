@@ -1,0 +1,6 @@
+framework module "InFruitKmp" {
+    umbrella header "InFruitKmp.h"
+
+    export *
+    module * { export * }
+}
