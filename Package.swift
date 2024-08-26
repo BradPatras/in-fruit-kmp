@@ -15,7 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "InFruitKmp",
-            path: "./InFruitKmp.xcframework"
+            url: "https://www.github.com/bradpatras/in-fruit-kmp/InFruitKmp.zip",
+            checksum: "a659533166b3eaa898c586a6a6a221a698c1913253582a55d4fb02525f399102"
         ),
     ]
 )

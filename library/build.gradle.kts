@@ -8,6 +8,7 @@ plugins {
     id("io.github.luca992.multiplatform-swiftpackage") version "2.2.3"
 }
 
+version = "0.0.2"
 val iosLibraryName = "InFruitKmp"
 
 kotlin {
@@ -52,7 +53,10 @@ android {
 
 multiplatformSwiftPackage {
     packageName(iosLibraryName)
+    zipFileName(iosLibraryName)
     swiftToolsVersion("6")
+    outputDirectory(rootDir)
+    distributionMode { remote("https://www.github.com/bradpatras/in-fruit-kmp") }
     targetPlatforms {
         iOS { v("16") }
     }
