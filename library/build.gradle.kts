@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     id("module.publication")
-    id("io.github.luca992.multiplatform-swiftpackage") version "2.2.2"
+    id("io.github.luca992.multiplatform-swiftpackage") version "2.2.3"
 }
 
 val iosLibraryName = "InFruitKmp"
