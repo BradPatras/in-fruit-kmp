@@ -1,0 +1,15 @@
+{
+  "originHash" : "ee3fea350b874c0cc4ee6c46f19e78be13ae693b617b1d1e2f70564baea76da1",
+  "pins" : [
+    {
+      "identity" : "in-fruit-kmp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BradPatras/in-fruit-kmp",
+      "state" : {
+        "revision" : "411c2a0fe3dd6babcad5116088085788aa64cc0c",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}

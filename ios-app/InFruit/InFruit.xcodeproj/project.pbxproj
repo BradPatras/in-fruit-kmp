@@ -195,6 +195,9 @@
 			);
 			mainGroup = 5C77D3742C7D52B800FB4D9D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5C77D3AA2C8E2AD600FB4D9D /* XCRemoteSwiftPackageReference "in-fruit-kmp" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5C77D37E2C7D52B800FB4D9D /* Products */;
 			projectDirPath = "";
@@ -552,6 +555,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C77D3AA2C8E2AD600FB4D9D /* XCRemoteSwiftPackageReference "in-fruit-kmp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BradPatras/in-fruit-kmp";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 5C77D3752C7D52B800FB4D9D /* Project object */;
 }
