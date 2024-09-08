@@ -1,6 +1,6 @@
 package models
 
-enum class Fruit(
+public enum class Fruit(
     val carbsInGrams: Double,
     val emoji: String,
 ) {

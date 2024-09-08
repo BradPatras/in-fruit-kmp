@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5C77D3AC2C8E2E2200FB4D9D /* InFruitKmp in Frameworks */ = {isa = PBXBuildFile; productRef = 5C77D3AB2C8E2E2200FB4D9D /* InFruitKmp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5C77D38E2C7D52BA00FB4D9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C77D3AC2C8E2E2200FB4D9D /* InFruitKmp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = InFruit;
 			packageProductDependencies = (
+				5C77D3AB2C8E2E2200FB4D9D /* InFruitKmp */,
 			);
 			productName = InFruit;
 			productReference = 5C77D37D2C7D52B800FB4D9D /* InFruit.app */;
@@ -566,6 +572,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C77D3AB2C8E2E2200FB4D9D /* InFruitKmp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C77D3AA2C8E2AD600FB4D9D /* XCRemoteSwiftPackageReference "in-fruit-kmp" */;
+			productName = InFruitKmp;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C77D3752C7D52B800FB4D9D /* Project object */;
 }
