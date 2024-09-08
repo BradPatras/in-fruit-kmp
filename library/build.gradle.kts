@@ -4,10 +4,10 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    id("io.github.luca992.multiplatform-swiftpackage") version "2.2.3"
+    alias(libs.plugins.multiplatformSwiftPackage)
 }
 
-version = "0.0.2"
+version = "1.0.0"
 val iosLibraryName = "InFruitKmp"
 
 kotlin {
