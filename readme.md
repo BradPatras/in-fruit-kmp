@@ -11,4 +11,4 @@ This repo was created using the [JetBrains KMP Template Gallery](https://kmp.jet
 
 After adding the swiftpackage gradle plugin, I had to disable the caching options in [gradle.properties](gradle.properties) to fix some build errors I was getting.
 
-For the android dependency, i'm going to try to use github packages. For the iOS dependency, i'm going to use the github releases page of this repo.
+For the android dependency, i'm going to try to use [github packages](https://proandroiddev.com/publishing-android-libraries-to-the-github-package-registry-part-1-7997be54ea5a). For the iOS dependency, i'm going to use the github releases page of this repo.
