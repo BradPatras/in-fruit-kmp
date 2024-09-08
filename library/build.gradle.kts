@@ -52,7 +52,7 @@ android {
 
 multiplatformSwiftPackage {
     packageName(iosLibraryName)
-    zipFileName(iosLibraryName)
+    zipFileName("$iosLibraryName.xcframework")
     swiftToolsVersion("6")
     distributionMode { remote("https://www.github.com/bradpatras/in-fruit-kmp/releases/v$version") }
     targetPlatforms {
