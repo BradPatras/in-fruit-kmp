@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.multiplatformSwiftPackage)
 }
 
-version = "1.0.1"
+version = "1.0.2"
 val iosLibraryName = "InFruitKmp"
 
 kotlin {
@@ -54,7 +54,7 @@ multiplatformSwiftPackage {
     packageName(iosLibraryName)
     zipFileName("$iosLibraryName.xcframework")
     swiftToolsVersion("5.10")
-    distributionMode { remote("https://www.github.com/bradpatras/in-fruit-kmp/releases/v$version") }
+    distributionMode { remote("https://www.github.com/bradpatras/in-fruit-kmp/releases/download/v$version") }
     targetPlatforms {
         iOS { v("16") }
     }
