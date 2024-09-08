@@ -4,7 +4,6 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    id("module.publication")
     id("io.github.luca992.multiplatform-swiftpackage") version "2.2.3"
 }
 
@@ -44,7 +43,7 @@ kotlin {
 }
 
 android {
-    namespace = "org.jetbrains.kotlinx.multiplatform.library.template"
+    namespace = "io.github.bradpatras.infruitkmp"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
@@ -55,8 +54,7 @@ multiplatformSwiftPackage {
     packageName(iosLibraryName)
     zipFileName(iosLibraryName)
     swiftToolsVersion("6")
-    outputDirectory(rootDir)
-    distributionMode { remote("https://www.github.com/bradpatras/in-fruit-kmp") }
+    distributionMode { remote("https://www.github.com/bradpatras/in-fruit-kmp/releases/v$version") }
     targetPlatforms {
         iOS { v("16") }
     }
