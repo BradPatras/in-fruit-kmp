@@ -56,7 +56,7 @@ struct ContentView: View {
 					GridItem(.flexible()),
 				]
 			) {
-				ForEach(Dessert.entries) { item in
+				ForEach(Dessert.entries, id: \.name) { item in
 					Button(item.emoji) {
 						selectedDessert.append(item)
 					}
@@ -72,18 +72,6 @@ struct ContentView: View {
 			}
 		}
 		.padding()
-	}
-}
-
-extension Fruit: Identifiable {
-	public var id: String {
-		self.name
-	}
-}
-
-extension Dessert: Identifiable {
-	public var id: String {
-		self.name
 	}
 }
 
