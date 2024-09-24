@@ -8,7 +8,7 @@ To generate the SPM Package.swift file and the XCFramework artifact, I'll be usi
 This repo was created using the [JetBrains KMP Template Gallery](https://kmp.jetbrains.com/#templateGallery) and the original readme is located here: [template-readme.md](template-readme.md)
 
 ## iOS Demo App
-![ios screenshot](screenshot/ios-sc.png)
+![ios screenshot](screenshots/ios-sc.png)
 
 ## Dev Notes
 
